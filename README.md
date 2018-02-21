@@ -1,6 +1,6 @@
 # Redfishexporter
 ## Image im dockerhub
-    docker run -d -p 9393:9393 -e PORT=9393 -e HOST_IP=0.0.0.0 -e VERSION_AS_INTEGER=1 -e USER=redfishuser -e PASSWORD=redfishpw -e PERIOD=60 tneumertubredfish_exporter_env
+    docker run -d -p 9393:9393 -e PORT=9393 -e HOST_IP=0.0.0.0 -e VERSION_AS_INTEGER=1 -e USER=redfishuser -e PASSWORD=redfishpw -e PERIOD=60 tneumertub/redfishexporter
 
 * environment:
   * HOST_IP: IP des HW-Servers
